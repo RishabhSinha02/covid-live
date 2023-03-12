@@ -25,13 +25,13 @@ const Covid = () => {
         { id: 3, name: 'Total Confirmed', value: data.deltaconfirmed },
         { id: 4, name: 'Total Deaths', value: data.deltadeaths },
         { id: 5, name: 'Total Actives', value: data.active },
-        { id: 6, name: 'Last Update', value: data.lastupdatedtime},
+        { id: 6, name: 'Last Update', value: '12/11/2022'},
         // { id: 6, name: 'Last Update', value: data.lastupdatedtime.split(" ")[0]},
       ]
 
     return (
         <>
-        <div className="bg-white py-24 sm:py-32">
+        <div className="bg-white py-24 sm:py-5">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <dl className="grid grid-cols-1 gap-y-16 gap-x-8 text-center lg:grid-cols-3">
           {stats.map((stat) => (
@@ -44,6 +44,9 @@ const Covid = () => {
           ))}
         </dl>
       </div>
+    </div>
+    <div className="bg-white py-24 sm:py-25">
+
     </div>
         </>
     )
