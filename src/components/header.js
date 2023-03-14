@@ -81,8 +81,7 @@ const Header = () => {
                     </div>
                     <div className="mx-auto max-w-2xl py-22 sm:py-28 lg:py-16">
                         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                            <iframe src="https://giphy.com/embed/wvP4x67EnIhWiCztAf" height="30" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
+                            
                         </div>
                         <div className="text-center">
                             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
